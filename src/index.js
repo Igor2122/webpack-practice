@@ -1,9 +1,21 @@
 document.querySelector('.btn').addEventListener('click', ()=> {
-  greet('igor');
+  generate();
+});
+
+document.querySelector('.add-person').addEventListener('click', () => {
+    // val1 = document.querySelector('.firstName').value;
+    // val2 = document.querySelector('.lastName').value;
+    addCustomer();
+    
+    
 })
 
 
-import greet from './greeting'
+import generate from './greeting';
+
+import addCustomer from './greeting';
+
+
 
 
 

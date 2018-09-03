@@ -9,7 +9,12 @@
   <style>
     .btn,
     .template {
-      margin: 20% 0 0 30%;
+      margin: 5% 0 0 30%;
+    }
+    .input {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
     }
   </style>
 </head>
@@ -20,6 +25,27 @@
     <h2></h2>
     <hr>
   </template>
+  <div class="input">
+    <label for="firstName">First Name</label>
+    <input class="firstName" type="text" name="firstName" value="Elona">
+    <label for="lastName">First Name</label>
+    <input class="lastName" type="text" name="lastName" value="Ivanovna">
+  </div>
+  <table>
+      <tbody>
+      <tr>
+      <td>First Name</td>
+      <td>Last Name</td>
+      </tr>
+      <template class="name-input-template">
+      <tr>
+        <td class="first-Name">Igor</td>
+        <td class="last-Name">Pavlenko</td>
+      </tr>
+      </template>
+      </tbody>
+      </table>
+      <button class="add-person">Add Person</button>
   <button class="btn">Show content</button>
   <script src="dist/main.js"></script>
 </body>
