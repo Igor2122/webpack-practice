@@ -1,3 +1,5 @@
+
+
 document.querySelector('.btn').addEventListener('click', ()=> {
   generate();
 });
@@ -11,9 +13,9 @@ document.querySelector('.add-person').addEventListener('click', () => {
 })
 
 
-import generate from './greeting';
+import {generate, addCustomer} from './greeting';
 
-import addCustomer from './greeting';
+
 
 
 
