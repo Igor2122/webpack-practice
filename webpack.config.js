@@ -14,7 +14,19 @@ let conf = {
   // will dispaly the error as overlay so we do not have to look for it with devtools
   devServer: {
     overlay: true
+  }, 
+  // here we can include css less etc ... here we declere whick extension what it will do
+  module: {
+    rules: [
+      {
+          test: /\.js$/,
+          // we installed below and can find in devdepnd in the pck.json file 
+          loader: 'babel-loader',
+          // if we bring the ready code from node that has been babeled we do not need to run it again ! it's not nessesary
+          exclude: '/node_modules/'
+      }
+    ]
   }
-}
+};
 
 module.exports = conf;

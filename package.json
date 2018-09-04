@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/Igor2122/webpack-practice#readme",
   "devDependencies": {
+    "b": "^2.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
     "path": "^0.12.7",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
