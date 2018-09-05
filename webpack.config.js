@@ -1,5 +1,6 @@
 let path = require('path');
 
+
 let conf = {
   // here we point wppack where to take initial script 
   entry: './src/index.js',

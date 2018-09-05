@@ -1,4 +1,4 @@
-
+require("babel-register");
 
 document.querySelector('.btn').addEventListener('click', ()=> {
   generate();
